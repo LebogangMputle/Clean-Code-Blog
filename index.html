@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<header>
+    <img src="https://stancalau.ro/wp-content/uploads/2020/04/CleanCode.jpg" alt="Blog Logo" class="logo">
+    <div class="headerPar"></div>
+    <h1>Clean Code: Charpter 6</h1>
+    <p>Blogs by The Flamboyants </p>
+    </div>
+
+<!-- Hamburger Menu Icon -->
+<div class="hamburger-menu" onclick="toggleMenu()">
+    <div class="line"></div>
+    <div class="line"></div>
+    <div class="line"></div>
+</div>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<!--blog 1-->
+<article>
+    <h2>Blog: Clean Code Introduction</h2>
+    <h3>Introduction:</h3>
+    <p>In the quest for clean code, mastering the balance between objects and data structures is paramount, as they form the backbone of software architecture, defining the elegance and maintainability of the codebase.</p>
+    <p>Read more <a href="https://brandgenetics.com/human-thinking/thinking-fast-and-slow/">here</a>.</p>
+    <p>Organization:</p>
+    <p>Data structures provide a well-defined way to store and organize information. This makes your code clear and easier to understand, both for you and other developers.</p>
+    <p>Efficiency:</p>
+    <p>Choosing the right data structure for the task improves code efficiency. For instance, using a hash table for quick lookups is better than iterating through a list every time.</p>
+    <p>Maintainability:</p>
+    <p>Clean code with well-defined data structures is easier to maintain and modify. If the data organization is clear, changes can be made without unintended consequences.</p>
+    <p>Encapsulation:</p>
+    <p>Objects encapsulate data and related functionalities. This promotes modularity and reduces the risk of errors spreading throughout your codebase.</p>
+    <p> The right object structures allow for easier code extension. You can add new functionalities without drastically changing existing code.</p>
+    <p>Read more <a href="https://brandgenetics.com/human-thinking/thinking-fast-and-slow/">here</a>.</p>
+</article>
+<hr></hr>
+<!--blog 1-->
+<article>
+    <h2>Blog: Clean Code Definitions</h2>
+    <p>These are like basic lego bricks ,They hold data but don't really do anything by themselves. They might have public variables to access the data directly.</p>
+    <p>Read more <a href="https://brandgenetics.com/human-thinking/thinking-fast-and-slow/">here</a>.</p>
+    <h1>Objects:</h1>
+    <p>These combine data structures with functions to act on that data. They typically have private data and public functions to interact with it.</p>
+    <h1>Data Structure -are Great When you need to store stuff.</h1>
+    <p>Objects are better when you need data to work together and respond to actions. This keep your code clean and organized.</p>
+    <h1>Data Abstraction</h1>
+    <p>It is about hiding the messy details of how data  is stored and focuses on how to use it. It hides the complexity and makes your code more manageable</p>
+    <h1>Encapsulation</h1>
+    <p>Objects encapsulate data and related functionalities. This promotes modularity and reduces the risk of errors spreading throughout your codebase.</p>
+    <h1>Flexibility</h1>
+    <p> The right object structures allow for easier code extension. You can add new functionalities without drastically changing existing code.</p>
+    <p>Read more <a href="https://brandgenetics.com/human-thinking/thinking-fast-and-slow/">here</a>.</p>
+</article>
+<hr></hr>
+
+<!--blog 3-->
+<article>
+    <h2>Blog:Difference between objects and data structures</h2>
+    <h3>Objects and Data structres are:</h3>
+    <p>
+        <li>Objects hide their data behind abstractions and expose functions that operate on that data. Data structures expose their data and have no meaningful functions.</li>
+        <li>Objects expose behaviour and hide data. This makes it easy to add new kinds of objects without changing existing behaviours. It also makes it hard to add new behaviours to existing objects..</li>
+        <li>Data structures expose data and have no significant behaviour. This makes it easy to add new behaviours to existing data structures (how data can be stored in different structures) but makes it hard to add new data structures to existing functions.</li>
+    </p>
+    <p>Read more <a href="https://brandgenetics.com/human-thinking/thinking-fast-and-slow/">here</a>.</p>
+</article>
+<hr></hr>
+
+<!--blog 4-->
+<article>
+    <h2>Blog: Data Object Anti-Symmetry:</h2>
+    <li>Objects hide their data behind abstractions and expose functions that operate on that data.</li>
+    <li>Data structures expose their data and have no meaningful functions</li>
+    <h1>The Law of Demeter</h1>
+    <li>This law says a module should not know about the inwards (internal workings of a device or machine) of the objects it manipulates. This means that an object should not expose its internal structure through accessors.</li>
+    <h1>Hybrids</h1>
+    <li>They are half objects and half data structures. Hybrids make it hard to add new functions but also make it hard to add new data structures.</li>
+    <h1> Data Transfer Objects</h1>
+    <li>The most perfect example of a data structure is a class with public variables and no functions which is a DTO.</li>
+    <li> Very useful structures, especially when communicating with databases or parsing (the process of analyzing a string of symbols) messages from sockets</li>
+    <h1>Active Records</h1>
+    <li>They are data structures with public (or accessed) variables. They typically have navigated methods.</li>
+    <p>Read more <a href="https://brandgenetics.com/human-thinking/thinking-fast-and-slow/">here</a>.</p>
+</article>
+<hr></hr>
+
+<footer>
+    <p>&copy; 2024 My Blog</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
